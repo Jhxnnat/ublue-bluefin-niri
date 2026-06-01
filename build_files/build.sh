@@ -12,6 +12,13 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y tmux 
 
+# Niri packages
+dnf5 install -y niri
+dnf5 install -y mako
+dnf5 install -y rofi
+dnf5 install -y playerctl
+dnf5 install -y brightnessctl
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
