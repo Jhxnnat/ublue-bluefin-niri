@@ -20,7 +20,8 @@ dnf5 install -y niri \
 	playerctl \
 	brightnessctl \
 	alacritty \
-	wl-clipboard
+	wl-clipboard \
+	kmonad
 
 # Use a COPR Example:
 #
