@@ -18,6 +18,7 @@ dnf5 install -y mako
 dnf5 install -y rofi
 dnf5 install -y playerctl
 dnf5 install -y brightnessctl
+dnf5 install -y alacritty
 
 # Use a COPR Example:
 #
