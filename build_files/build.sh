@@ -13,12 +13,14 @@ set -ouex pipefail
 dnf5 install -y tmux 
 
 # Niri packages
-dnf5 install -y niri
-dnf5 install -y mako
-dnf5 install -y rofi
-dnf5 install -y playerctl
-dnf5 install -y brightnessctl
-dnf5 install -y alacritty
+dnf5 install -y niri \
+	xdg-desktop-portal-gnome \
+	mako \
+	rofi \
+	playerctl \
+	brightnessctl \
+	alacritty \
+	wl-clipboard
 
 # Use a COPR Example:
 #

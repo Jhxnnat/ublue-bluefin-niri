@@ -3,3 +3,5 @@ This is a bluefin customized image that I'm workign on: bluefin with all the nec
 Currently can't log in niri, but it can be used nested.
 
 More info on ublue image templates: https://github.com/ublue-os/image-template
+
+
