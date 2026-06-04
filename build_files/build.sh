@@ -14,7 +14,7 @@ dnf5 install -y niri \
 	kmonad
 
 # configure terra for installing awww
-sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+sudo dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
 dnf5 install -y awww
 
