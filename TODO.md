@@ -1,5 +1,4 @@
-- [ ] terra repo (for getting awww)
-- [ ] pre configure flatpak apps
-- [ ] pre configure brew packages
-
-
+- [x] terra repo (for getting awww)
+- [x] pre configure flatpak apps
+- [ ] Brewfile for more (optional) apps
+- [ ] tailscale
